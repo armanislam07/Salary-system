@@ -1,0 +1,209 @@
+.tabs {
+}
+.tabs input[type=radio] {
+  display: none; 
+}
+.tabs label {
+  transition: background 0.4s ease-in-out, height 0.2s linear;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  width: 20%;
+  height: 3em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #101010;
+  text-align: center;
+  line-height: 3em; 
+}
+.tabs label:last-of-type {
+  border-bottom: none; 
+}
+.tabs label:hover {
+  background: #469159;
+  color:#ffffff;
+}
+@media screen and (max-width: 1600px) {
+.tabs label {
+  width: 15%; } 
+}
+@media screen and (max-width: 900px) {
+.tabs label {
+  width: 20%; 
+  } 
+}
+@media screen and (max-width: 600px) {
+.tabs label {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #C7C6C4;
+  border-radius: 0; 
+} 
+}
+@media screen and (max-width: 600px) {
+.tabs {
+  margin: 0; 
+} 
+}
+
+#tab1:checked + label, #tab2:checked + label, #tab3:checked + label, #tab4:checked + label, #tab5:checked + label, #tab6:checked + label, #tab7:checked + label, #tab8:checked + label, #tab9:checked + label, #tab10:checked + label {
+  background: #469159;
+  color: #FFFFFF; }
+
+.tab-content {
+  position: absolute;
+  top: -9999px;
+  padding: 10px; 
+}
+
+.tab-content-wrapper{
+  opacity: 0.9;	
+  background: #3d3d3d;
+  border-top: #469159 5px solid;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  
+}
+@media screen and (max-width: 600px) {
+.tab-content-wrapper, .tab1-content-wrapper {
+  border: none;
+  border-radius: 0; 
+} 
+}
+
+#tab1:checked ~ .tab-content-wrapper #tab-content-1, #tab2:checked ~ .tab-content-wrapper #tab-content-2, #tab3:checked ~ .tab-content-wrapper #tab-content-3, #tab4:checked ~ .tab-content-wrapper #tab-content-4, #tab5:checked ~ .tab-content-wrapper #tab-content-5, #tab6:checked ~ .tab-content-wrapper #tab-content-6, #tab7:checked ~ .tab-content-wrapper #tab-content-7, #tab8:checked ~ .tab-content-wrapper #tab-content-8, #tab9:checked ~ .tab-content-wrapper #tab-content-9, #tab10:checked ~ .tab-content-wrapper #tab-content-10 {
+  position: relative;
+  top: 0px;
+ }
+
+/* NEW TAB HERE */
+
+.tabs_lyric {
+}
+.tabs_lyric input[type=radio] {
+  display: none; 
+}
+.tabs_lyric label {
+  transition: background 0.4s ease-in-out, height 0.2s linear;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  width: 20%;
+  height: 3em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #101010;
+  text-align: center;
+  line-height: 3em; 
+}
+.tabs_lyric label:last-of-type {
+  border-bottom: none; 
+}
+.tabs_lyric label:hover {
+  background: #469159;
+  color:#ffffff;
+}
+@media screen and (max-width: 1600px) {
+.tabs_lyric label {
+  width: 15%; } 
+}
+@media screen and (max-width: 900px) {
+.tabs_lyric label {
+  width: 20%; 
+  } 
+}
+@media screen and (max-width: 600px) {
+.tabs_lyric label {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #C7C6C4;
+  border-radius: 0; 
+} 
+}
+@media screen and (max-width: 600px) {
+.tabs_lyric {
+  margin: 0; 
+} 
+}
+
+#tab5:checked + label, #tab6:checked + label, #tab7:checked + label, #tab8:checked + label, #tab9:checked + label, #tab10:checked + label {
+  background: #469159;
+  color: #FFFFFF; }
+
+.tab-content_lyric {
+  position: absolute;
+  top: -9999px;
+  padding: 10px; 
+}
+
+.tab-content-wrapper_lyric{
+  opacity: 0.9;	
+  background: #3d3d3d;
+  border-top: #469159 5px solid;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  
+}
+@media screen and (max-width: 600px) {
+.tab-content-wrapper_lyric, .tab1-content-wrapper_lyric {
+  border: none;
+  border-radius: 0; 
+} 
+}
+
+#tab5:checked ~ .tab-content-wrapper_lyric #tab-content-5, #tab6:checked ~ .tab-content-wrapper_lyric #tab-content-6, #tab7:checked ~ .tab-content-wrapper_lyric #tab-content-7, #tab8:checked ~ .tab-content-wrapper_lyric #tab-content-8, #tab9:checked ~ .tab-content-wrapper_lyric #tab-content-9, #tab10:checked ~ .tab-content-wrapper_lyric #tab-content-10 {
+  position: relative;
+  top: 0px;
+ }
+
+.big-cal {
+  padding: 10px;
+}
+.p{
+	text-align: justify;
+}
+.box-content {
+  padding: 20px;
+}
+
+.box-cell {
+  margin-bottom: 10px;
+  
+  &.one {
+    background-color: #F26E11
+  }
+
+  &.two {
+    background-color: #84B2A1;
+  }
+
+}
+
+@media only screen and (min-width: 720px) {
+  .boxes {
+    display: table;
+    width: 100%;
+  }
+
+  .box-row {
+    display: table-row;
+  }
+
+  .box-cell {
+    display: table-cell;
+    vertical-align: top;
+    width: 33.333333333%;
+
+    &.one {
+      border-right: 5px solid #fff;
+    }
+
+    &.two {
+      border-left: 5px solid #fff;
+      border-right: 5px solid #fff;
+    }
+
+  }
+}

@@ -1,0 +1,79 @@
+.unselectable, .tab .tab-legend > li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.tab {
+  width: 100%;
+  margin: 20px 0;
+  overflow: hidden; }
+
+.tab > .tab-legend, .tab > .tab-content, .tab-legend > li, .tab-content > li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.tab .tab-legend {
+ 
+  overflow: hidden; }
+
+.tab .tab-legend > li {
+  padding: 15px;
+  color: #999999;
+  text-transform: uppercase;
+  float: left;
+  cursor: pointer; }
+
+.tab .tab-legend > li {
+  background-color: #101010; }
+
+.tab .tab-legend .active {
+  background-color: #469159;
+  color: #FFFFFF; }
+
+.tab .tab-legend > li:hover{
+	background: #469159;
+	color: white;
+}
+.tab .tab-content {
+  width: 100%;
+  min-height: 350px;
+  position: relative;
+  overflow: hidden; }
+
+.tab .tab-content > li {
+  position: relative;
+  overflow: hidden; }
+
+/*Horizontal specific*/
+.tab-horiz .tab-legend {
+  width: 100%; }
+
+.tab-horiz .tab-content {
+  width: 100%; }
+
+/*Vertical specific*/
+.tab-vert .tab-legend {
+  width: 20%;
+  float: left; }
+
+
+.tab-vert .tab-legend > li {
+  width: 100%;
+}
+
+.tab-vert .tab-legend > li.active2 {
+  border-right: 0; }
+
+.tab-vert .tab-content {
+  width: 80%;
+  display: block;
+  float: left; }
+
+.tab-vert .tab-content > li {
+  min-height: 100%;
+  display: block; }
+
+/* NEW TAB */
+
