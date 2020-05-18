@@ -3,7 +3,7 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
     <title>ReliableBD</title>
-    <link rel="shortcut icon" href="{{asset('css/images/rb-ltd-logo.png')}}">
+    <link rel="icon" href="{{asset('css/images/rb-ltd-logo.png')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="reliable development ltd.">
     <meta name="keywords" content="reliable,reliablebd,reliable development,ReliableBD,reliablebd.org,www.reliablebd.org, reliablebd org, reliable builders,reliable builders ltd">
