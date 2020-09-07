@@ -141,3 +141,7 @@
     </div>
 </div>
 @endsection
+
+@section('jsfile')
+<script src="{{asset('js/custom.js')}}" ></script>
+@endsection

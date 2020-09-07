@@ -617,6 +617,7 @@ $(document).ready(function(){
         $('.advanceSalaryInput-1').show();
         $('.advanceSalaryInput-2').show();
         $('#save_employee_salary').show();
+        $('#save_employee_salary').text('Payment');
         $('#advance_emp_salary').hide();
 
         employeeSalaryDetails(emp_id,salary);        

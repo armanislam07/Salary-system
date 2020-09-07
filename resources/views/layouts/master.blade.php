@@ -221,8 +221,8 @@
 
 <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js" defer></script>
 
+@yield('jsfile')
 
-<script src="{{asset('js/custom.js')}}" ></script>
 
 </body>
 </html>
