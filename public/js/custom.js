@@ -616,8 +616,8 @@ $(document).ready(function(){
         $('#installment').prop('disabled',false);
         $('.advanceSalaryInput-1').show();
         $('.advanceSalaryInput-2').show();
-        $('#save_employee_salary').show();
-        $('#save_employee_salary').text('Payment');
+        $('#save_employee_salary').hide();
+        $('#payment_employee_salary').show();
         $('#advance_emp_salary').hide();
 
         employeeSalaryDetails(emp_id,salary);        
@@ -701,6 +701,7 @@ $(document).ready(function(){
         $("form").trigger("reset");
         $('.form_employee_salary :input').prop('disabled',true);
         $('#installment').prop('disabled',false);
+        $('#payment_employee_salary').hide();
         // $('.advanceSalaryInput-1').hide();
         $('.advanceSalaryInput-2').hide();
         $('#save_employee_salary').hide();
