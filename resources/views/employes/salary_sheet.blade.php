@@ -120,7 +120,7 @@
                   <div class="modal-footer">
                     <button type="button" id="closebtn" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="button" id="save_employee_salary" class="btn btn-primary">Save</button>
-                    <button type="button" id="payment_employee_salary" class="btn btn-primary">Payment</button>
+                    <button type="button" id="payment_employee_salary" class="btn btn-primary">Payment </button>
                     <button type="button" id="advance_emp_salary" class="btn btn-primary">Advance Pay</button>
                   </div>
                 </div>
